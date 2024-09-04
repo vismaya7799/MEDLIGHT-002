@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="logo.jpg" class="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#service">SERVICE</a></li>
+        <li><a href="#tour">PRODUCT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img1.jpeg" alt="New York" width="1200">
+        <div class="carousel-caption">
+          <h3>MEDLIGHT</h3>
+          <p>Bio-Medical Equipment Company in Dubai-UAE</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img2.jpg" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>MEDLIGHT</h3>
+          <p>Bio-Medical Equipment Company in Dubai-UAE</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="img3.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>MEDLIGHT</h3>
+          <p>Bio-Medical Equipment Company in Dubai-UAE</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!--About section-->
+<div class="container" id="about">
+  <h3>About us</h3>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Medlight for Medical Equipment and Services, is one of the leading specialized medical solutions providers in United Arab Emirates. Our specialty is to provide a full package of services to achieve the desired level of quality and conform to the demands of the healthcare sector. They include FANR e-licensing, DOH inspection preparation, safety assessment, radiation protection training medical radiation technologists, and quality assurance of medical imaging equipment X-ray equipment services like CT scan, CBCT, medical X-ray, and Dental X-ray. Furthermore, we deal in a large variety of medical equipment and consumables that caters to the medical, dental and lab equipment.</p>
+    </div>
+    <div class="col-sm-6">
+     <img src="about.jpeg" style="height: 300px;">
+    </div>
+  </div>
+</div>
+
+<!-- Container (The service Section) -->
+<div id="service" class="container text-center">
+  <h3>OUR SERVICES</h3>
+  <p><em>Best Bio-Medical Equipment Company</em></p>
+  <p>Establishing strategic partnerships with healthcare facilities and consistently delivering high-quality medical products and equipment, resulting in improved operational efficiency and customer satisfaction.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>FANR Consultation Service</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="img1.jpeg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>FANR Consultation</p>
+        <p>For Radiation Testing Services is professional consultant providing total solutions and consultancy to obtain a FANR license, License to conduct Regulated Activities valid for 3 years. Our FANR consultancy service includes. A FANR license is mandatory to carry out ionizing and radiation involving activities. Any business or governmental organization including companies operating in free zones, which possess, use, manufacture, handle, store, import or export, transport and dispose of radioactive materials, X-ray generators or other sources of ionizing radiation.</p>
+        <p>.....</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Lead shielding </strong></p><br>
+     
+      <a href="#demo2" data-toggle="collapse">
+        <img src="img4.webp" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Lead shielding</p>
+        <p>Radiation shielding designed to protect employees and members of the public from being exposed to high radiation levels and not to exceed FANR regulatory requirements and limits.
+
+          We have provided industry-leading shielding products and in these turbulent times are currently assisting medical clients, hospitals and clinics. Our top priority is the safety and health of our customers and team members.
+          
+          For radiation shielding design and evaluation, to meet FANR dose constraints, let the physicists at Medrad, design the shielding requirements.
+          
+          Required Information for Shielding Designs
+          
+          Architectural drawings of equipment layout in room
+          
+          Architectural drawings of surrounding areas indicating usage of these areas - offices, restrooms, corridor, exterior, etc.</p>
+        <p>......</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>X Ray Quality Control Check</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="img3.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Quality control (QC) consists of a series of standardized tests developed to detect changes in x-ray equipment function from its original level of performance.</p>
+        <p>....</p>
+        <p>.....</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">Our Products</h3>
+    <h3 class="text-center">Checkout our latest products</h3>
+    <p class="text-center">Your Premier Partner in Medical Equipment Excellence<br>
+      Entromedical is your trusted source for top-quality medical equipment and comprehensive support services, setting the standard for excellence in the industry.</p>
+    <!--<ul class="list-group">
+      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
+      <li class="list-group-item">November <span class="badge">3</span></li> 
+    </ul>-->
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="cardiology-equipments.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Cardiology Equipments</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="dental.avif" alt="New York" width="400" height="300">
+          <p><strong>Dental Equipment</strong></p>
+          <p>Saturday 28 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="dermatology1.jpg" alt="San Francisco" width="400" height="300">
+          <p><strong>Dermatology Equipment</strong></p>
+          <p>Sunday 29 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="physiotherapy1.jpg" alt="Paris" width="400" height="200">
+          <p><strong>physiotherapy Equipment</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="ot-equipment.jpg" alt="Paris" width="400" height="300">
+          <p><strong>OT Equipment</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="radiology.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Radiology Equipment</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact Us</h3>
+  <!--<p class="text-center"><em>We love our fans!</em></p>-->
+
+  <div class="row">
+    <div class="col-md-4">
+      <img src="logo.jpg" style="width: 300px;">
+      <p>Medlight Bio-medical Equipments</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Dar,Al Wuheida Building Al Qiyadha,DUBAI-UAE</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +971586445506</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Tel: 042207441</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: support@medlightbiomedical.com</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: anil@medlightbiomedical.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--<h3 class="text-center">From The Blog</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Mike Ross, Manager</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Chandler Bing, Guitarist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Peter Griffin, Bass player</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>-->
+
+<!-- Image of location/map -->
+<img src="map.jpg" class="img-responsive" style="width:100%">
+
+<Footer>
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>© 2024 Biomedical Center. All rights reserved.</p> 
+</footer>
+
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
